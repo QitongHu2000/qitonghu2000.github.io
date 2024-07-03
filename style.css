@@ -53,12 +53,14 @@ a{
 .section-2 h2{
     font-size: 1.7rem;
     margin-bottom: 10px;
+    color: #000000;
 }
 
 .section-2 p{
     font-size: 1.1rem;
     padding-bottom: 10px;
     margin:0;
+    color: #000000;
 }
 
 .section-2 a{
@@ -67,6 +69,7 @@ a{
     font-size: 1.2rem;
     padding-left: 0;
     width: 100px;
+    color: #000000;
 }
 /* animations / utilities */
 .section-2 a:hover{
