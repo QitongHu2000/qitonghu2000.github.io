@@ -3,7 +3,7 @@
 
 .grid-2{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: 1fr 2fr;
 }
 
 body{
@@ -25,9 +25,9 @@ a{
 }
 /* section 1 */
 .section-1{
-    padding-top: 40vh;
+    padding-top: 5em;
     text-align: center;
-    width: 50%;
+    width: 100%;
 }
 
 .section-1 p{
