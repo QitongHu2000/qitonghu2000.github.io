@@ -85,11 +85,11 @@ a{
 }
 
 .section-2 a{
-    display: block;
-    padding: 5px;
+    display: inline;
+    padding: 0px;
     font-size: 1.2rem;
     padding-left: 0;
-    width: 100px;
+    width: 50px;
     color: #000000;
 }
 /* animations / utilities */
