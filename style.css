@@ -23,6 +23,12 @@ a{
     color: #000000;
     text-decoration: none;
 }
+
+span{
+    color: #000000;
+    text-decoration: none;
+}
+
 /* section 1 */
 .section-1{
     padding-top: 5em;
@@ -45,6 +51,12 @@ a{
     font-size: 1.5rem;
     padding: 10px;
 }
+
+.section-1 span{
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
 /* section 2 */
 .section-2{
     padding-top: 10vh;
@@ -92,6 +104,16 @@ a{
     width: 50px;
     color: #000000;
 }
+
+.section-2 span{
+    display: inline;
+    padding: 0px;
+    font-size: 1.2rem;
+    padding-left: 0;
+    width: 50px;
+    color: #000000;
+}
+
 /* animations / utilities */
 .section-2 a:hover{
     font-size: 1.3rem;
@@ -100,7 +122,20 @@ a{
     transition: 0.2s;
 }
 
+.section-2 span:hover{
+    font-size: 1.3rem;
+    color: #CCCCCC;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
 .section-1 a:hover{
+    color: #CCCCCC;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.section-1 span:hover{
     color: #CCCCCC;
     cursor: pointer;
     transition: 0.3s;

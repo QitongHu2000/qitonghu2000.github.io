@@ -16,16 +16,22 @@
             <p>Shanghai, China</p>
             <a href="https://github.com/QitongHu2000/"><i class="fab fa-github"></i></a>
             <a href="https://orcid.org/0000-0002-4045-2904"><i class="fab fa-orcid"></i></a>
-            <a href="https://www.researchgate.net/profile/Qitong-Hu"><i class="fab fa-researchgate"></i></a>
+            <a href="https://www.researchgate.net/profile/Qitong-Hu"><i class="fab fa-researchgate"></i></a></br>
             <p> </p>
             <p> </p>
             <p> </p>
             <p> </p>
+            <span class='contents' value="one">Homepage</span></br></br>
+            <span class='contents' value="two">Research</span></br></br>
+            <span class='contents' value="three">Resources</span></br></br>
+<!--
             <p>This place is for my love</p>
             <i class="fa fa-heart fa-2x"></i>
             <p>Xiaoyang He</p>
+-->
         </div>
         <div class="section-2">
+	<div class='onePage page'>
             <h2>About me</h2>
             <p>I am a 4-year Ph.D. student in Applied Mathematics at Shanghai Jiao Tong University.
                My major is complex networks, which includes nonlinear dynamics and network analysis.
@@ -36,6 +42,10 @@
                 <li><strong>2020/09-2022/09</strong>, Master in Applied Mathematics, Shanghai Jiao Tong University.(advised by Prof. <a href="https://math.sjtu.edu.cn/Default/teachershow/tags/MDAwMDAwMDAwMLKIlNs">Xiao-Dong Zhang</a>)</li>
                 <li><strong>2016/09-2020/06</strong>, Bachelor in Information and Computing Science, Shandong University.</li>
             </ul>
+            <h2>Contact</h2>
+            <p>huqitong dot sjtu dot edu dot cn</p>
+	</div>
+	<div class='twoPage page' style='display: none'>
             <h2>Publications</h2>
             <p>(*First author and Co-first author, #Corresponding author)</p>
             <h3>Preprints</h3>
@@ -110,9 +120,20 @@
                 </ul>
                 </li>
             </ol>
-            <h2>Contact</h2>
-            <p>huqitong dot sjtu dot edu dot cn</p>
+	</div>
+	<div class='threePage page' style='display: none'>
+	</div>
         </div>
     </div>
+    <script src='jquery.min.js'></script>
+    <script type="text/javascript">
+        $('.contents').click(function(){
+            var pageName = $(this).attr('value');
+	    console.log(pageName);
+            var pageClass = '.'+pageName+'Page';
+            $('.page').css('display','none');
+            $(pageClass).css('display','block');
+        })
+    </script>
 </body>
 </html>
